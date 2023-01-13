@@ -53,10 +53,10 @@ CREATE TABLE People
 INSERT INTO [People]([Name], [Gender], [Birthdate])
 VALUES
 ('Petyo', 'm' , '2007-08-10'),
-('CeciRiboka', 'm' , '2007-04-02'),
-('Dundi', 'm' , '2007-06-10'),
-('Moni', 'f' , '2007-03-10'),
-('Denkata', 'm' , '2007-06-10')
+('Cvetan', 'm' , '2007-04-02'),
+('Deyan', 'm' , '2007-06-10'),
+('Monika', 'f' , '2007-03-10'),
+('Pesho', 'm' , '2007-06-10')
 
 -- 8
 CREATE TABLE Users
@@ -71,11 +71,11 @@ CREATE TABLE Users
 
 INSERT INTO [Users]([Username], [Password])
 VALUES
-('Petyo', 'Pedal123' ),
-('CeciRiboka', 'Ceci123'),
-('Dundi', 'Dundi123'),
-('Moni', 'BRUHH'),
-('Denkata', 'AREBATEUS')
+('Petyo', 'Petyo123' ),
+('Cvetan', 'Cvetan123'),
+('Pesho', 'Pesho123'),
+('Moni', 'Moni123'),
+('Vladislav', 'Vladi123')
 
 -- 9
 ALTER TABLE [Users] DROP CONSTRAINT PK__Users__3214EC07B4B134F7
